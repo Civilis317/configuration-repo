@@ -1,0 +1,7 @@
+database:
+  host: postgres.test.local
+  port: 5432
+  username: db-admin
+  password: n3f3rt4R1#12:39
+
+

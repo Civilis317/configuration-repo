@@ -1,0 +1,12 @@
+rabbitmq:
+  host: rabbitmq.test.local
+  port: 5670
+  username: rabbitmq
+  password: cl30P4tr4!1229
+
+ldap:
+  host: ldap.test.local
+  port: 389
+  principal: cn=admin
+  password: h4tch3psuT!1231
+

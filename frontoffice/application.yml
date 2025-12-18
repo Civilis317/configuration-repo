@@ -1,7 +1,4 @@
-database:
-  host: "postgres.test.local"
-  port: "5432"
-  username: "{cipher}829a7e0af95fd5cfa118ac17c512dedee0716e8bc147e9931867dcb43f489ab0"
-  password: "{cipher}d5570d8cc227182cfed9077bc370b40e13f9e1e7620e2eb3dc0911643319dc4a"
-
-
+logging:
+  level:
+    spring: "INFO"
+    application: "DEBUG"

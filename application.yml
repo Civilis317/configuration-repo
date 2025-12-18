@@ -1,5 +1,12 @@
-logging:
-    level:
-        spring: "INFO"
-        application: "DEBUG"
+rabbitmq:
+  host: "rabbitmq.test.local"
+  port: "5670"
+  username: "{cipher}92f982dbe475fe31202758ef879c4e398a3fcd823c2f45d3677a70f87ad4172d"
+  password: "{cipher}1c1382cd9d3ff3126b9e88f020a385e96fde75c74279d81fcc89b55282722216"
+
+ldap:
+  host: "ldap.test.local"
+  port: "389"
+  principal: "{cipher}13633c9ce5014de41d1683fa1634a1ae818d8611dc24b0399458eb3f9ac3765b"
+  password: "{cipher}0dafda1d694c477284335d5b368ce4045701206827545223fcd76c1544707ce1"
 

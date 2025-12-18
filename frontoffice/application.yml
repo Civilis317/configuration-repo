@@ -1,4 +1,4 @@
 logging:
   level:
-    spring: "INFO"
-    application: "DEBUG"
+    org.springframework: INFO
+    nl.homelab.platform.frontoffice: DEBUG

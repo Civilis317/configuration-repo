@@ -2,3 +2,11 @@ logging:
   level:
     org.springframework: INFO
     nl.homelab.platform.frontoffice: DEBUG
+
+database:
+  driver: "org.postgresql.Driver"
+  uri: "jdbc:postgresql://localhost:5432/frontoffice"
+  username: "{cipher}a0bd32808215ca2ede684b7f01c43b730f46affb099108c71a747cdf48234743cdc3cb9456adb4ec528d9671b9bab112"
+  password: "{cipher}ff932f638e5350509319366f47d76581df727fe2ee42971c28c0f36ae8fed598"
+  schema: "frontoffice"
+  liquibase-schema: "liquibase"

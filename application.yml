@@ -1,8 +1,8 @@
 rabbitmq:
-  host: "rabbitmq.test.local"
-  port: "5670"
-  username: "{cipher}92f982dbe475fe31202758ef879c4e398a3fcd823c2f45d3677a70f87ad4172d"
-  password: "{cipher}1c1382cd9d3ff3126b9e88f020a385e96fde75c74279d81fcc89b55282722216"
+  host: "localhost"
+  port: "5672"
+  username: "{cipher}72e9f191fb78c915697f3bc1614de2fdad8d92712a4f8cba91df916c0b14a4d9"
+  password: "{cipher}5dd2d099958aff9231d0656c349118caeac4bc23d52ace9c86489ed9fa8ff0cc"
 
 ldap:
   host: "ldap.test.local"

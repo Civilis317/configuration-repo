@@ -5,7 +5,7 @@ logging:
 
 database:
   driver: "org.postgresql.Driver"
-  uri: "jdbc:postgresql://localhost:5432/frontoffice"
+  uri: "jdbc:postgresql://localhost:5432/backoffice"
   username: "{cipher}ee4927361ceaba0d11e7c55cb2b84e699c4a10cf00895fdc31aaaa6cabf89aa4"
   password: "{cipher}e44ad00f70510aecaa38bb3130331f97bfda3aee1b0e31151a3b867940ad7372"
   schema: "backoffice"
